@@ -1,0 +1,113 @@
+@media screen and (min-width:700px){
+    
+    header{
+        padding: 30px;
+    }
+    header ul li{
+        margin-left: 60px;
+    }
+    /*PRIMEIRO CONTAINER*/
+    .container{
+        padding: 70px;
+    }
+    .container img,#illustration-2{
+        float: right;
+        width: 450px;
+        margin-top: 5%;
+    }
+    .container h1, .segundo-container h2{
+        font-size: 27px;
+        text-align: left;
+        line-height: 30px;
+        margin-bottom: 2%;
+    }
+
+    
+    .container p, .segundo-container p{
+        margin-top: 0%;
+        text-align: left;
+        font-size: 15px;
+    }
+     .container button{
+        width: 100px;
+        margin-top: 2%;
+        font-size: 10px;
+        padding: 9px;
+    }
+
+    .container input{
+        margin-top: 2%;
+        width: 200px;
+        padding: 16px;
+    }
+    /*SEGUNDO CONTAINER*/
+    .containerS{
+        padding-left: 70px;
+        padding-right: 70px;
+        height: 800px;
+    }
+    #illustration-2{
+        margin-top: 3%;
+
+    }
+    .segundo-container h2{
+        margin-top: 10%;
+        
+    }
+    .segundo-container hr{
+        width: 240px;
+    }
+
+    .comentario{
+        float: left;
+        margin-bottom: 35px;
+        width: 450px;
+        margin-top: 30px;
+    }
+    /*TERCEIRO CONTAINER*/
+    .terceiro-container{
+        padding: 70px;
+        height: 350px;
+    }
+    .sign{
+        
+        width: 45%;
+    }
+    .terceiro-container input, .terceiro-container button{
+        display: block;
+        margin: auto;
+        margin-top: 6%;
+        width: 400px;
+    }
+    .terceiro-container button{
+        margin-top: 2%;
+    }
+    
+    .terceiro-container h2, .terceiro-container p{
+        float: left;
+        text-align: left;
+    }
+    .terceiro-container p {
+        font-size: 15px;
+    }
+    /*Footer*/
+    footer{
+        height: 400px;
+        padding: 70px;
+    }
+    #logo-footer{
+        margin-left: -3%;
+    }
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .icons{
+        margin-top: 5%;
+    }
+    .icons i {
+        margin-left: 2%;
+    }
+    
+}   
